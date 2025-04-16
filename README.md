@@ -3,7 +3,6 @@
 
 A vibrant, interactive website created for the **Gamers Arena** event hosted at **FAST NUCES Karachi**, featuring the internationally renowned gaming legend **Arslan Ash** as the guest speaker.
 
-![Screenshot](8166ebea-10ec-4cb0-b90e-3610ee66aca0.png)
 
 ## 🌐 Overview
 
@@ -35,14 +34,5 @@ The website includes:
 - Hover effects and animations
 - Clean layout for ease of navigation
 
-## 📁 Folder Structure
-
-maaz-014/
-├── assets/             # Contains all images (JPGs etc.) used on the website
-├── WallOfFame.html     # One of the HTML pages
-├── home.html           # landing page
-├── registration.html   # Registration form/page
-├── script.js           # JavaScript logic
-├── style.css           # CSS styling
 
 
