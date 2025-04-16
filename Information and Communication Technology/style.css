@@ -1,0 +1,401 @@
+body {
+  background: linear-gradient(135deg, #2c083e,#720d60); 
+  /* background: linear-gradient(90deg, #000428, #4E1978, #720d60); */
+  /* background: linear-gradient(130deg, #000428, #4E1978, #720d60); */
+  /* background: linear-gradient(130deg, #2c083e, #5b1f75, #720d60 ); */
+  /* background: linear-gradient(90deg, #2c083e, #4b1a6e, #720d60); */
+  /* background: linear-gradient(90deg, #2c083e, #5b1f75, #9e2a6f); */
+  /* background: linear-gradient(90deg, #2c083e, #6b295e, #720d60); */
+  /* background: linear-gradient(90deg, #2c083e, #8a3e6e, #f1748d); */
+  /* background: linear-gradient(90deg, #2c083e, #56306f, #720d60); */
+  /* background: linear-gradient(90deg, #2c083e, #4f1a6f, #720d60);  */
+  background: linear-gradient(90deg, #000428, #4E1978, #720d60); 
+  /* background: linear-gradient(90deg, #000428, #4E1978, #300C50); */
+  /* background: linear-gradient(90deg, #000428, #4E1978, #6B1E8C); */
+  height: 100%;
+}
+a{
+  text-decoration: none;
+
+}
+::selection {
+  background-color: #2C083E; 
+  color: white;
+}
+h1, h2, h3, button {
+  font-family: 'Passion One';
+  color: #BC7EDB;
+  text-shadow: 0px 8px 10px #2C083E !important; 
+}
+
+h4,h5,p{
+  font-family: 'League Spartan';
+  color: #B857A6;
+  text-shadow: 0px 4px 10px #290222 !important;
+}
+h6{
+  font-family: Nanum Brush Script;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #BC7EDB;
+  text-shadow: 0px 4px 10px #290222 !important;
+}
+nav{
+  height: 125px;
+  border-bottom: solid white 0.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-list{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 125px;
+  margin-right: 100px;
+  overflow:visible;
+}
+.list-item{
+  font-weight: 400;
+  opacity: 80%;
+  color:#BC7EDB;
+  font-size: 38px;
+  display: inline-block;
+}
+.list-item:hover{
+  opacity: 100%;
+  transform: scale(1.05);
+  transition: 0.75s;
+  cursor: pointer;
+}
+.hero-section{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid white;
+  }
+.left-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 20px;
+}
+.right-section{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 35%;
+}
+.about-section
+{
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  border-bottom: 1px solid white;
+}
+.about-left{
+  width: 50%;
+  border-right: 1px solid white;
+}
+.about-right{
+  width: 50%;
+    
+}
+.details{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 40px;
+}
+.schedule{
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+}
+.purchase-button{
+  background-color: #290222;
+  border: 0px;
+  border-radius: 15px;
+  padding: 10px;
+  height: 45px;
+  width: 200px;
+  font-size: medium;
+  font-weight: 400;
+}
+.purchase:hover{
+  transform: scale(1.5) translateY(-10px);
+  transition: 0.75s ease;
+}
+.purchase-button:hover{
+  transition: 0.25s ease-in;
+  border: 1px solid #B857A6;
+  box-shadow: 0px 10px 5px #2C083E;
+  cursor: pointer;
+  color: #ffffff;
+}
+.glowing-text {
+  font-size: 2em;
+  color: #aa00ff; 
+  animation: ScaleEffect 1.75s infinite alternate ease-in-out;
+  text-shadow: 0 0 5px #aa00ff, 
+}
+@keyframes ScaleEffect {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.03);
+  }
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid white;
+  height: 150px;
+}
+.socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  width: 17.5%;
+}
+.social-item:hover{
+  opacity: 75%;
+  transition: 0.5s;
+}
+.trademark{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+}
+.games{
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(4 ,2fr);
+  gap: 40px;
+
+}
+.registration-button{
+  background-color: #290222;
+  border: 0px;
+  border-radius: 35px;
+  padding: 10px;
+  margin-top: 20px;
+  height: 50%;
+  width: 90%;
+  font-size: medium;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.registration-button:hover{
+  transition: 0.5s;
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 5px #2C083E;
+  border: 1px #B857A6 solid;
+  cursor: pointer;
+}
+.games-images{
+  border: 2px solid #BC7EDB; 
+  box-shadow: 6px 6px 10px 0px #290222;
+  border-radius: 12px;
+}
+.games-images:hover ~ .game-details{
+  display: block;
+  opacity: 90%;
+  transition: 1.5s;
+  opacity: 1;
+}
+.game-details{
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  transition: 0.5s opacity;
+  position: absolute;
+  background-color: rgba(0, 0, 0 , 0.75);
+  top: 50%;
+  left: 15%;
+  backdrop-filter: blur(7px);
+  height: 450px;
+  width: 900px;
+}
+/* WAll OF FAME PAGE */
+.WallOfFame{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.winner-section{
+    display: grid;
+    grid-template-columns:  1fr;
+    gap: 100px;
+}
+.winners{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: 240px;
+}
+.game{
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  gap: 100px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.winner-name{
+  font-weight: 800;
+  font-size: 36px;
+  letter-spacing: 0.2rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #BC7EDB;
+}
+.winner-season{
+  font-weight: 800;
+  margin-top: 13px;
+  font-size: 24px;
+  color: white;
+}
+.game-name{
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  letter-spacing: 1rem;
+  color: white;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 2%;
+  left: 20%;
+  backdrop-filter: blur(10px);
+  z-index: 9;
+  border: 4px solid #2C083E;
+}
+.form-container {
+  width: 800px;
+  max-height: 90vh;
+  overflow-y: auto; 
+  padding: 10px;
+  background: linear-gradient(90deg, #2c083e, #1b0116); 
+  border: 2px solid #2c083e;
+  opacity: 90%;
+}
+.form-container input[type=text], .form-container input[type=password]  , .form-container select[id=games]{
+  width: 97%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  background: #BC7EDB;
+  border: none;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus , .form-container select[id=games]:focus{
+  background-color: white ;
+  border: 2px solid #aa00ff;
+  outline: none;
+}
+
+.form-buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-container .btn {
+  border: 0px;
+  border-radius: 15px;
+  padding: 10px;
+  height: 45px;
+  width: 300px;
+  margin: 20px;
+  border: 2px solid #B857A6;
+  background: none;
+  font-size: medium;
+  font-weight: 400;
+  cursor: pointer;
+  
+}
+
+.form-container .btn:hover, .open-button:hover {
+  transition: 0.55s ease-in;
+  box-shadow: 0px 5px 5px #2C083E;
+  cursor: pointer;
+  background-color: #B857A6;
+  color: #ffffff;
+  transform: scale(1.1) translateY(-5px);
+}
+.form-container .cancel:hover {
+  background-color: red;
+  border: 2px solid red;
+}
+
+label{
+  font-family: Nanum Brush Script;
+  font-size: 25px;
+  color: white;
+}
+.testimonial-quote{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+.quotes {
+  color: #9e9e9e;
+  display: inline-block;
+  font-size: 16px;
+  margin: 35px 10px 10px;
+  max-width: 310px;
+  min-width: 250px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #2C083E;
+  border-radius: 5px;
+  border-top: 5px solid #B857A6;
+}
+.quotes:hover{
+  transition: 0.75s;
+  box-shadow: 2px 2px 2px 5px #B857A6;
+}
+.quotes figcaption {
+  padding: 13% 10% 12%;
+}
+.quotes h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.quotes h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+.quotes blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+.quotes p{
+  font-size: 20px;
+}

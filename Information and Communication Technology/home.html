@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- links begin -->
+  <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=League+Spartan:wght@400;700&family=Passion+One:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js" defer></script>
+  <!-- links end -->
+  <title>Document</title>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "RMxx6vQQ7AInnVvsF",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+  <!-- nav bar start -->
+  <div class="nav-outer">
+    <nav>
+      <ul class="nav-list">`
+        <img src="./assets/logo.svg" alt="website-logo" width="98px" class="list-item" style="margin-left:-190px">
+        <h3><a href="./home.html" class="list-item">HOME</a></h3>
+        <h3><a href="./registration.html" class="list-item">REGISTRATION</a></h3>
+        <h3><a href="./WallOfFame.html" class="list-item">WALL OF FAME</a></h3>
+      </ul>
+    </nav>
+  </div>
+  <!-- nav bar end -->
+  <div class="hero-section">
+    <div class="left-section">
+      <h4 style="font-weight: 700; color: #B857A6; font-size: 30px; margin-bottom: 0px;">
+        exclusively for participants
+      </h4>
+      <h2
+        style="font-weight: 400; font-size: 60px; text-align: center; margin-top: 2px; margin-bottom: 0px; text-shadow: 0px 4px 10px 0px #290222;">
+        GET A CHANCE TO MEET THE GAMING SENSATION
+      </h2>
+      <div class="guest" style="position: relative;">
+        <img src="./assets/crown.svg" alt="crown" width="50px" style="position: absolute; left: -20px; top: -20px;" >
+        <h1 class="glowing-text" style="font-size: 90px; margin-top: 2px; letter-spacing: 0.5rem; margin-bottom: 0px;">
+          ARSALAN ASH.</h1>
+      </div>
+      <div class="details">
+        <div class="schedule">
+          <img src="./assets/calender.svg" alt="calender" width="75px">
+          <p class="" style="color: #B857A6; font-weight: bold;">
+            Venue: FAST NUCES - <br>
+            Auditorium, Karachi Campus <br>
+            Date: 23rd December 2024 <br>
+            Timing: 7pm - 9pm
+          </p>
+        </div>
+        <div class="purchase" style="position: relative;">
+          <img src="./assets/pointer.svg" alt="pointer" width="30px"
+            style="position: absolute; bottom: -10px; right: -5px;" class="mouse">
+          <button class="purchase-button" onclick="openPurchaseForm()"> purchase your ticket now </button>
+        </div>
+      </div>
+    </div>
+    <div class="right-section">
+      <div style=" position: relative;">
+        <h6 style="font-size: 60px; margin-top: 0px; margin-left: -40px;">guest speaker</h6>
+        <img src="./assets/uparrow.svg" alt="arrow" width="150px"
+          style="margin-top: 80px; margin-right: 0px; position: absolute; top: 50px;">
+      </div>
+      <img src="./assets/arsalan-ash.svg" alt="goat" width="350px" style="margin-right: 100px; margin-top: 100px;">
+    </div>
+  </div>
+  <h1 style="text-align: center; font-size: 125px; margin-top: 150px;">ABOUT US<span style="color: white;">.</span></h1>
+
+  <div class="about-section">
+    <div class="about-left">
+      <h2 style="text-align: center; font-size: 75px;">WHAT WE DO<span style="color: white;">.</span></h2>
+      <h5 style="font-size: 30px; color: white;">
+        Gamers Arena is a premier gaming tournament organization dedicated to connecting competitive gamers worldwide.
+        <br> <br>
+        It offers a seamless platform for hosting and participating in tournaments across popular esports titles like
+        Fortnite, Valorant, FIFA,
+        and more. <br> <br> its the ultimate hub for casual players and esports professionals to showcase their skills
+        and thrive in competitive gaming.
+      </h5>
+    </div>
+    <div class="about-right">
+      <h2 style="text-align: center; font-size: 75px;">WHY WE DO IT<span style="color: white;">.</span></h2>
+      <h5 style="font-size: 24px; color: white; margin-left: 5px;">
+        At Gamers Arena, we believe in the power of gaming to bring people together, ignite passion,
+        and inspire excellence.
+        and grow. <br><br> We do it to celebrate the dedication, strategy, and creativity that esports embodies while
+        fostering a thriving community of like-minded individuals. <br><br>
+        By hosting fair, exciting, and accessible tournaments, we aim to give every gamer a chance to showcase their
+        talent, make lifelong connections,
+        and pursue their dreams in the world of competitive gaming. <br><br><span
+          style="font-size: 38px; color: #B857A6; ">Its not just about gaming its about building a <span
+            style=" font-style: italic;">LEGACY.</span></span>
+      </h5>
+    </div>
+  </div>
+  <div class="testimonials">
+    <h2 style="text-align: center; font-size: 100px;">TESTIMONIALS<span style="color: white;">.</span></h2>
+    <div class="testimonial-quote">
+      <figure class="quotes">
+        <figcaption>
+          <blockquote>
+            <p>"Gamers Arena brings intense, well-organized tournaments every time"</p>
+          </blockquote>
+          <h3>Shroud</h3>
+          <h4>Youtube</h4>
+        </figcaption>
+      </figure>
+      <figure class="quotes">
+        <figcaption>
+          <blockquote>
+            <p>"Gamers Arena creates unforgettable experiences for players and fans."</p>
+          </blockquote>
+          <h3>Ninja</h3>
+          <h4>Twitch</h4>
+        </figcaption>
+      </figure>
+      <figure class="quotes">
+        <figcaption>
+          <blockquote>
+            <p>"The best tournaments I've competed in, hands down." </p>
+          </blockquote>
+          <h3>Lachlan</h3>
+          <h4>Twitter</h4>
+        </figcaption>
+      </figure>
+      <figure class="quotes">
+        <figcaption>
+          <blockquote>
+            <p>"Always exciting tournaments with top-tier gameplay and production."</p>
+          </blockquote>
+          <h3>NadeShot</h3>
+          <h4>Youtube</h4>
+        </figcaption>
+      </figure>
+      <figure class="quotes">
+        <figcaption>
+          <blockquote>
+            <p>"Fantastic tournaments with smooth organization and passionate players."</p>
+          </blockquote>
+          <h3>Myer</h3>
+          <h4>Instagram</h4>
+        </figcaption>
+      </figure>
+      <figure class="quotes">
+        <figcaption>
+          <blockquote>
+            <p>"Great tournaments with exceptional organization and competitive energy." </p>
+          </blockquote>
+          <h3>KDB</h3>
+          <h4>Twitter</h4>
+        </figcaption>
+      </figure>
+    <figure class="quotes">
+      <figcaption>
+        <blockquote>
+          <p>"Always thrilling, Gamers Arena creates the best competitive atmosphere."</p>
+        </blockquote>
+        <h3>Tekkz</h3>
+        <h4>Twitch</h4>
+      </figcaption>
+    </figure>
+    <figure class="quotes">
+      <figcaption>
+        <blockquote>
+          <p style="font-size: 30px;">"Simply Lovely"</p>
+        </blockquote>
+        <h3>Verstappen</h3>
+        <h4>Interlagos</h4>
+      </figcaption>
+    </figure>
+    <figure class="quotes">
+      <figcaption>
+        <blockquote>
+          <p>"Amazing competitive atmosphere and well-organized tournaments every time."</p>
+        </blockquote>
+        <h3>Pierre Gasly</h3>
+        <h4>Twitter</h4>
+      </figcaption>
+    </figure>
+    </div>
+  </div>
+  <!-- footer start -->
+  <div class="footer">
+    <div class="socials">
+      <a href=https://www.instagram.com/"">
+        <img src="./assets/insta.svg" alt="instagram" class="social-item">
+      </a>
+      <a href="https://www.linkedin.com/">
+        <img src="./assets/linkedin.svg" alt="linkedin" class="social-item">
+      </a>
+      <a href="https://www.faceboook.com/">
+        <img src="./assets/facebook.svg" alt="facebook" class="social-item">
+      </a>
+    </div>
+    <div class="trademark">
+      <img src="./assets/logo.svg" alt="logo" width="55px">
+      <p class=""
+        style="font-family: 'Passion One'; margin-bottom: 0px;color:#BC7EDB; letter-spacing: 0.2rem; margin-top: 4px; font-size: 16px;">
+        © 2024 GAMERS ARENA</p>
+      <p class=""
+        style="margin-top: 4px; font-family: 'Passion One'; margin-bottom: 0px;    color:#BC7EDB; font-size: 12px; letter-spacing: 0.2rem;">
+        all rights reserved</p>
+    </div>
+  </div>
+  <!-- footer end -->
+  <!-- The form -->
+  <div class="form-popup" id="PurchaseForm">
+    <form class="form-container">
+      <h1 style="font-size: 50px; text-align: center;">Event Registration</h1>
+      <label for="FirstName">First Name</label>
+      <input type="text" name="firstname" placeholder="Enter First Name" id="Pfirstname" required>
+      <label for="LastName">Last Name</label>
+      <input type="text" name="lastname" placeholder="Enter Last Name" id="Plastname" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required id="Pemail">
+      <label for="NU-ID">NU ID</label>
+      <input type="text" name="nu-id" placeholder="Enter NU-ID (24K-2521)" id="Pnuid" required>
+      <label for="FirstName">Phone Number</label>
+      <input type="text" name="phone" id="" placeholder="+92-123-456789" id="Pphoneno" required>
+      <div class="form-buttons">
+        <button type="submit" class="btn" onclick="sendTicketmail()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closePurchaseForm()"
+          style="border: 2px solid red;">Close</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
